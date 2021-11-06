@@ -3,7 +3,7 @@ import os
 
 path = 'path where the mp3 file should be saved'
 
-file = input('Welches File möchtest du vorgelesen bekommen? (Full Path)')
+file = input('Welches File möchtest du vorgelesen bekommen? (Full Path where the file is)')
 file_open = open(str(file), "r").read().replace("\n", " ")
 
 language = input('Welche Sprache möchtest du? \nde/en\n')
