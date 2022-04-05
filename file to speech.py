@@ -14,6 +14,6 @@ else:
 
 speech = gTTS(text=str(file_open), lang=language, slow=False)
 
-name = input('What name should the file have ?')
+name = input('What name should the file have?')
 speech.save(path+'F2S'+str(name)+'.mp3')
 os.system(f'start {path}F2S{str(name)}.mp3')
